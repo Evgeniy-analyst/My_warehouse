@@ -33,6 +33,10 @@ c = compute_len(x_a, y_a, x_b, y_b)
 a = compute_len(x_b, y_b, x_c, y_c)
 b = compute_len(x_a, y_a, x_c, y_c)
 
+M_a = 1/2 * sqrt(2 * (c ** 2 + b ** 2) - a ** 2)
+M_b = 1/2 * sqrt(2 * (a ** 2 + c ** 2) - b ** 2)
+M_c = 1/2 * sqrt(2 * (a ** 2 + b ** 2) - c ** 2)
+
 if a+b <= c or b+c <= a or a + c <= b:
     print("Треугшольник не существует")
 else:
