@@ -14,5 +14,3 @@ B = B_1*S
 Q = B/v
 print(ceil(Q), S, B)
 print(round(Q))
-nghfvhgf
-kljlkj
